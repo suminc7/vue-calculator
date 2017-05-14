@@ -24,4 +24,4 @@ Repository 주소를 복사한다.
 <br>
 <br>
 
-D:\study 경로에서 github 경로를 clone한다..
+D:\study 경로에서 github 경로를 clone한다.
