@@ -16,7 +16,7 @@
 <br>
 <br>
 
-###github에서 vue-calculator로 Repository를 생성
+### github에서 vue-calculator로 Repository를 생성
 - Repository 주소를 복사하고 cmd 창을 열어 아래와 같이 입력한다.
 <pre><code>
 > d:
@@ -27,7 +27,7 @@
 <br>
 <br>
 
-###vue-calculator 폴더에서 아톰을 실행
+### vue-calculator 폴더에서 아톰을 실행
 <pre><code>
 > cd vue-calculator
 > atom .
@@ -35,7 +35,7 @@
 <br>
 <br>
 
-###npm init를 실행해 package.json을 생성
+### npm init를 실행해 package.json을 생성
 <pre><code>
 > npm init
 > (계속 엔터)
