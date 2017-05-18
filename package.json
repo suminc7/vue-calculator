@@ -1,0 +1,19 @@
+{
+  "name": "vue-calculator",
+  "version": "1.0.0",
+  "description": "- https://nodejs.org/ko/ v.6.10.3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suminc7/vue-calculator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/suminc7/vue-calculator/issues"
+  },
+  "homepage": "https://github.com/suminc7/vue-calculator#readme"
+}

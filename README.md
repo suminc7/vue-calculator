@@ -10,18 +10,42 @@
 ### atom 설치
 - https://atom.io/  
 - 설치 후 cmd 창을 열고 아래와 같이 입력하면 현재 디렉토리 경로가 열린다.
-<pre><code> > atom .  </code></pre>
+<pre><code>
+> atom .  
+</code></pre>
 <br>
 <br>
-github에서 vue-calculator로 Repository를 생성 한다.
-Repository 주소를 복사한다.
+github에서 vue-calculator로 Repository를 생성 한다.<br>
+Repository 주소를 복사하고 cmd 창을 열어 아래와 같이 입력한다.
 
 <pre><code>
-> cd d:
+> d:
 > mkdir study
-> git clone https://github.com/suminc7/vue-calculator.git
+> cd study
+> git clone https://github.com/[user]/vue-calculator.git
 </code></pre>
 <br>
 <br>
 
-D:\study 경로에서 github 경로를 clone한다.
+
+vue-calculator 폴더에서 아톰을 실행한다.
+<pre><code>
+> cd vue-calculator
+> atom .
+</code></pre>
+
+
+npm init를 실행해 package.json을 생성한다.
+<pre><code>
+> npm init
+> (계속 엔터)
+> Is this ok? (yes) yes
+</code></pre>
+
+
+
+
+
+
+
+
