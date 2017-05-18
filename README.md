@@ -43,9 +43,17 @@
 </code></pre>
 
 
+npm install -g webpack webpack-dev-server
+npm install babel-loader babel-core babel-preset-es2015 --save-dev
 
 
+webpack.config.js 생성
+dist 생성
+src 생성
 
+src/main.js 생성
+.babelrc 생성
 
+index.html 생성
 
 
