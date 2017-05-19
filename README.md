@@ -15,6 +15,8 @@
 </code></pre>
 <br>
 <br>
+<br>
+<br>
 
 #### github에서 vue-calculator로 Repository를 생성
 - Repository 주소를 복사하고 cmd 창을 열어 아래와 같이 입력한다.
@@ -26,12 +28,16 @@
 </code></pre>
 <br>
 <br>
+<br>
+<br>
 
 #### vue-calculator 폴더에서 아톰을 실행
 <pre><code>
 > cd vue-calculator
 > atom .
 </code></pre>
+<br>
+<br>
 <br>
 <br>
 
@@ -41,12 +47,20 @@
 > (계속 엔터)
 > Is this ok? (yes) yes
 </code></pre>
+<br>
+<br>
+<br>
+<br>
 
 #### 모듈 설치
 <pre><code>
 npm install -g webpack webpack-dev-server
 npm install babel-loader babel-core babel-preset-es2015 --save-dev
 </code></pre>
+<br>
+<br>
+<br>
+<br>
 
 #### 폴더와 파일을 생성
 - webpack.config.js, main.js, index.html은 그대로 복사해 사용한다.
@@ -58,6 +72,10 @@ npm install babel-loader babel-core babel-preset-es2015 --save-dev
 .babelrc
 webpack.config.js
 </code></pre>
+<br>
+<br>
+<br>
+<br>
 
 #### 아래의 명령어 실행
 - 화면에 2가 보이면 성공!
