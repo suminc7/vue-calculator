@@ -1,3 +1,3 @@
 
 const aa = 2;
-alert(aa);
+document.write(aa);

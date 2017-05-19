@@ -48,7 +48,8 @@ npm install -g webpack webpack-dev-server
 npm install babel-loader babel-core babel-preset-es2015 --save-dev
 </code></pre>
 
-##### 폴더와 파일을 생성
+#### 폴더와 파일을 생성
+- webpack.config.js, main.js, index.html은 그대로 복사해 사용한다.
 <pre><code>
 /dist
  ┗ index.html
@@ -59,6 +60,7 @@ webpack.config.js
 </code></pre>
 
 #### 아래의 명령어 실행
+- 화면에 2가 보이면 성공!
 <pre><code>
 > webpack-dev-server --hot --open --inline
 </code></pre>
