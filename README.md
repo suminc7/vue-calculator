@@ -9,7 +9,7 @@
 
 #### atom 설치
 - https://atom.io/  
-- 설치 후 cmd 창을 열고 아래와 같이 입력하면 현재 디렉토리 경로가 열린다.
+- 설치 후 cmd 창을 열고 아래와 같이 입력하면 현재 경로가 Atom에서 열린다.
 <pre><code>
 > atom .  
 </code></pre>
@@ -54,8 +54,8 @@
 
 #### 모듈 설치
 <pre><code>
-npm install -g webpack webpack-dev-server
-npm install babel-loader babel-core babel-preset-es2015 --save-dev
+> npm install -g webpack webpack-dev-server
+> npm install babel-loader babel-core babel-preset-es2015 --save-dev
 </code></pre>
 <br>
 <br>
