@@ -1,13 +1,13 @@
 # vue-calculator
 
 
-### nodejs 설치
+#### nodejs 설치
 - https://nodejs.org/ko/ v.6.10.3
 
-### git 설치
+#### git 설치
 - https://git-scm.com/download 2.13.0
 
-### atom 설치
+#### atom 설치
 - https://atom.io/  
 - 설치 후 cmd 창을 열고 아래와 같이 입력하면 현재 디렉토리 경로가 열린다.
 <pre><code>
@@ -16,7 +16,7 @@
 <br>
 <br>
 
-### github에서 vue-calculator로 Repository를 생성
+#### github에서 vue-calculator로 Repository를 생성
 - Repository 주소를 복사하고 cmd 창을 열어 아래와 같이 입력한다.
 <pre><code>
 > d:
@@ -27,7 +27,7 @@
 <br>
 <br>
 
-### vue-calculator 폴더에서 아톰을 실행
+#### vue-calculator 폴더에서 아톰을 실행
 <pre><code>
 > cd vue-calculator
 > atom .
@@ -35,27 +35,33 @@
 <br>
 <br>
 
-### npm init를 실행해 package.json을 생성
+#### npm init를 실행해 package.json을 생성
 <pre><code>
 > npm init
 > (계속 엔터)
 > Is this ok? (yes) yes
 </code></pre>
 
-
+#### 모듈 설치
+<pre><code>
 npm install -g webpack webpack-dev-server
-
 npm install babel-loader babel-core babel-preset-es2015 --save-dev
+</code></pre>
 
+##### 폴더와 파일을 생성
+<pre><code>
+/dist
+ ┗ index.html
+/src
+ ┗ main.js
+.babelrc
+webpack.config.js
+</code></pre>
 
-webpack.config.js 생성
-dist 생성
-src 생성
-
-src/main.js 생성
-.babelrc 생성
-
-index.html 생성
-
-
-webpack-dev-server --hot 으로 실행
+#### 아래의 명령어 실행
+<pre><code>
+> webpack-dev-server --hot --open --inline
+</code></pre>
+<br>
+<br>
+<br>
