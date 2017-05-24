@@ -3,27 +3,60 @@
 
 #### Vue 모듈 설치 
 
-<pre><code>
+```bash
 > npm install vue --save
 > npm install vue-loader css-loader vue-template-compiler --save-dev
-</code></pre>
-<br>
-<br>
+```
 <br>
 <br>
 
-components 생성
+#### 파일 교체
+
+- main.js
+```javascript
+import Vue from 'vue';
+import App from './App.vue';
+
+new Vue({
+    el: '#app',
+    template: '<App/>',
+    components: { App }
+});
+```
+<br/>
+<br/>
+
+- dist/index.html
+```html
+<body>
+<div id="app"></div> <!-- 추가 -->
+<script src="js/main.js"></script>
+</body>
+```
+<br/>
+
+- src/App.vue
+```vue
+<template>
+    <div id="app">
+        Hello World Vue!
+    </div>
+</template>
+
+<script>
+    export default {
+        name: 'app'
+    }
+</script>
+
+<style>
+    #app {
+        background-color: #ccc;
+    }
+</style>
+```
 
 
-#### git 설치
-- https://git-scm.com/download 2.13.0
-
-#### atom 설치
-- https://atom.io/  
-- 설치 후 cmd 창을 열고 아래와 같이 입력하면 현재 경로가 Atom에서 열린다.
-<pre><code>
-> atom .  
-</code></pre>
 <br>
 <br>
 <br>
