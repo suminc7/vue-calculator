@@ -78,10 +78,13 @@ webpack.config.js
 <br>
 
 #### 아래의 명령어 실행
-- 화면에 2가 보이면 성공!
+- 화면에 'hello world'가 보이면 성공!
 <pre><code>
 > webpack-dev-server --hot --open --inline
 </code></pre>
 <br>
 <br>
 <br>
+
+
+

@@ -1,3 +1,3 @@
 
-const aa = 2;
+const aa = 'hello world!';
 document.write(aa);
