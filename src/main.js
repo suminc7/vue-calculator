@@ -1,3 +1,8 @@
+import Vue from 'vue';
+import App from './App.vue';
 
-const aa = 'hello world!';
-document.write(aa);
+new Vue({
+    el: '#app',
+    template: '<App/>',
+    components: { App }
+});

@@ -1,8 +1,19 @@
-# vue-calculator
+# vue-calculator Step1
 
 
-#### nodejs 설치
-- https://nodejs.org/ko/ v.6.10.3
+#### Vue 모듈 설치 
+
+<pre><code>
+> npm install vue --save
+> npm install vue-loader css-loader vue-template-compiler --save-dev
+</code></pre>
+<br>
+<br>
+<br>
+<br>
+
+components 생성
+
 
 #### git 설치
 - https://git-scm.com/download 2.13.0
