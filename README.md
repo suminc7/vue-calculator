@@ -2,10 +2,10 @@
 
 
 #### nodejs 설치
-- https://nodejs.org/ko/ v.6.11.1
+- https://nodejs.org/ko/ 8.9.4
 
 #### git 설치
-- https://git-scm.com/download 2.13.0 또는 최신
+- https://git-scm.com/download 2.13.0
 
 #### atom 설치
 - https://atom.io/  
