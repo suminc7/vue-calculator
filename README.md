@@ -65,11 +65,25 @@ webpack.config.js
 <br>
 <br>
 
-#### 아래의 명령어 실행
-- 화면에 'hello world'가 보이면 성공!
-```bash
-> webpack-dev-server --hot --open --inline
+#### package.json에 아래와 같이 dev를 추가하고
+
+```json
+"scripts": {
+    "dev": "webpack-dev-server --hot --open --inline",
+    "test": "echo \"Error: no test specified\" && exit 1"
+}
 ```
+<br>
+
+#### npm run dev 실행
+
+```bash
+> npm run dev
+```
+<br>
+
+#### 화면에 'hello world'가 보이면 성공!
+
 <br>
 <br>
 <br>
