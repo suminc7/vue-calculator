@@ -46,7 +46,6 @@
 
 #### 모듈 설치
 ```bash
-> npm install -g webpack webpack-dev-server
 > npm install webpack webpack-dev-server babel-loader babel-core babel-preset-es2015 --save-dev
 ```
 <br>
